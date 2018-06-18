@@ -1,0 +1,16 @@
+Implement:
+
+other Characters in the game, and interactions with them
+
+possibly use getline instead of cin in order to read in "Take the note"
+
+Fix:
+
+Change inventory system to vectors vs. whatever it is now
+
+Taking/dropping/reading an item needs to be automatic and not have an if statement (if user types this*, give them this*) for every possible option. It should be if user types take bread, it can say p1.aquire(&userinput)
+
+Items should not be declared inside of the main function (maybe have a function much like buildMap for the items)
+
+Setting description of the item should be in the constructor, like the locations
+
