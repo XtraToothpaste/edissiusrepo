@@ -8,6 +8,7 @@ using namespace std;
 
 
 const int NUM_LOCATIONS = 8;
+//editing from github.com and pulling...
 
 void options(){
     cout << "| N |go North\n"
